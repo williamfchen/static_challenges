@@ -1,0 +1,81 @@
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header h1 {
+  background-color: #b61313;
+  color: #f7f6f6;
+  padding: 10px 0;
+  text-align: left;
+  font-size: 36px;
+}
+
+header h2 {
+  background-color: #b61313;
+  color: #f7f6f6;
+  padding: 5px 0;
+  text-align: right;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.landmark {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1; 
+}
+
+.landmark img {
+  max-width: 30%;
+  height: auto; 
+  margin-right: 20px; 
+}
+
+.landmark-art-museum img {
+  max-width: 50%; 
+  height: auto; 
+  margin-right: 20px; 
+}
+
+.landmark-art-museum {
+  order: -1;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+}
